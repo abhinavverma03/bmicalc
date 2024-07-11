@@ -14,7 +14,7 @@ const App = () => {
   })
 
   useEffect(()=>{
-    setBMI(Math.round((stats.weight)/((stats.height/100)**2)))
+    setBMI(((stats.weight)/((stats.height/100)**2)).toFixed(1))
   },[stats])
 
   function handleChange(e){
@@ -58,7 +58,7 @@ const App = () => {
           fontFamily: "DM Serif Display,serif",
           fontWeight: 1000,
           fontStyle: "normal",
-          height:"45px", width:"160px", fontSize:"x-large", marginBottom:"30px"}} variant="contained">BMI: {bmi}.0</Button>
+          height:"45px", width:"160px", fontSize:"x-large", marginBottom:"30px"}} variant="contained">BMI: {bmi}</Button>
       
       </Box>
       </div>

@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 body{
+  background-image: url("https://transparenttextures.com/patterns/45-degree-fabric-light.png");
   font-family: "DM Serif Display", serif;
   font-style: normal;
   color: white;
   background-color: #000000;
-  background-image: url("https://transparenttextures.com/patterns/45-degree-fabric-light.png");
+  
 }
 h1{
   font-size: 40px;
   margin-top: 5vh;
 }
 .box{
+  background-image: url("https://transparenttextures.com/patterns/binding-dark.png");
   border-radius: 7px;
   width: 450px;
   background-color: #000000;
-  background-image: url("https://transparenttextures.com/patterns/binding-dark.png");
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media (width<=500px) {
   .box{
