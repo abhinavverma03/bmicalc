@@ -37,7 +37,7 @@ const App = () => {
       flexDirection="column"
       gap={2}
       p={3}
-      sx={{ border: '3px solid grey' }}
+      sx={{ border: '2px solid white' }}
       >
       
         <br />
